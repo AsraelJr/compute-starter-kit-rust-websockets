@@ -1,4 +1,4 @@
-authors = ["<oss@fastly.com>"]
+authorsauthors = ["<oss@fastly.com>"]
 description = "Implements WebSocket passthrough."
 language = "rust"
 manifest_version = 2

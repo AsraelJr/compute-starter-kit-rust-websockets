@@ -10,7 +10,7 @@ fn main() -> Result<(), Error> {
 
     let mut req = Request::from_client();
 
-    if let Some("websocket") = req.get_header_str("Upgrade") {
+    if let Some("Websocket") = req.get_header_str("Upgrade") {
         Ok(req.handoff_websocket("backend")?)
     } else {
         req.set_pass(true);
